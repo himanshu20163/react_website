@@ -1,0 +1,38 @@
+#project{
+    box-sizing: border-box;
+    height:15vh;
+    width:100%;
+}
+#project_cards{
+    display: flex;
+    height:40%;
+    width:100%;
+    border:2px solid rgb(0, 255, 247);
+}
+#head_project{
+    color:green;
+    margin-top: 20px;
+}
+#cards{
+    margin:20px;
+    border:2px solid black;
+    width:28%;
+    height:16rem;
+    background-color: rgb(73 107 255 / 48%);
+    border-style: none;
+    border-radius: 5px;
+}
+#line_head{
+    margin-top: -50px;
+}
+#cards:hover{
+    transition: transform .2s;
+    transform: scale(1.1); 
+}
+#card_img{
+    margin-top:-15px;
+    border-radius: 5px;
+}
+#card_title{
+    margin-top: 50px;
+}
