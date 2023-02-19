@@ -14,6 +14,7 @@
     margin-top: 20px;
 }
 #cards{
+    
     margin:20px;
     border:2px solid black;
     width:28%;
@@ -35,4 +36,45 @@
 }
 #card_title{
     margin-top: 50px;
+}
+/*------------------------responsive part ------------*/
+@media screen and (max-width:1050px) {
+    #cards{
+        margin:10px;
+        border:2px solid black;
+        width:28%;
+        height:16rem;
+        background-color: rgb(73 107 255 / 48%);
+        border-style: none;
+        border-radius: 5px;
+    }
+    #card_img{
+        height:150px ;
+        width:180px;
+        margin-top:-15px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width:768px) {
+    #cards{
+        margin:30px;
+        border:2px solid black;
+        width:80%;
+        height:16rem;
+        background-color: rgb(73 107 255 / 48%);
+        border-style: none;
+        border-radius: 5px;
+    }
+    #card_img{
+        height:180px ;
+        width:180px;
+        margin-top:-15px;
+        border-radius: 5px;
+    }
+    #card_title{
+
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 50px;
+    }
 }
